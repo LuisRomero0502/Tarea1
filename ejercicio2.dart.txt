@@ -1,0 +1,18 @@
+/*Crear una función que reciba un arreglo como parámetro y devuelva una 
+ * copia del arreglo (este debe ser una copia integra y no solo una 
+ * referencia al arreglo original).*/
+void main() {
+  ejemplo(1,3);
+}
+
+
+void ejemplo(int x, int y) {
+  final List<int> lista = [];
+
+  lista.add(x);
+  lista.add(y);
+  
+ print('variables1 $lista');
+
+ print('variables $x $y');
+}

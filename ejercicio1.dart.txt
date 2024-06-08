@@ -1,0 +1,35 @@
+void main() {
+  final x1=Rectangulo(y:0,
+                       x: 2,);
+  try{
+  x1.area;   
+  }
+catch(error){
+  
+  print(error);
+}
+    
+  print(x1.area);
+  
+}
+
+class Rectangulo{
+  
+  //propiedades
+   double x ;//base
+double  y;//altura
+  
+  //constructor
+  Rectangulo({required this.x,required this.y});
+  
+  
+ double get area {
+ 
+    return this.x * this.y;
+  }
+
+     
+   }
+    
+ 
+
